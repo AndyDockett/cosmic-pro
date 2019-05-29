@@ -7,7 +7,7 @@
         <a [routerLink]="['singlepost']" [queryParams]="{slug: data.slug}"><img src="{{data.metadata.blogImage}}" height=200px width=200px></a>
       </div>
       <a [routerLink]="['singlepost']" [queryParams]="{slug: data.slug}"><h3>{{data.title}}</h3></a>
-      <p>Author: {{data.metadata.author}}</p>
+      <p>Author: {{data.metadata.author}} ok</p>
 
       <div class="blog-content">
           <p [innerHTML]=data.metadata.description></p>  
